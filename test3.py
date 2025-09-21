@@ -7,4 +7,4 @@ C = np.array(A)
 A[-1]='June'
 print(A)
 
-B[1] ='June'
+B[1] ='June'wwwww
