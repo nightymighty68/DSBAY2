@@ -1,0 +1,852 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.1003.1601                               -->
+<workbook original-version='18.1' source-build='2025.2.4 (20252.25.1003.1601)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Students Social Media Addiction (Students Social Media Addiction)' inline='true' name='federated.15o0nxe0e5jxog16cqw3g0a9yfjo' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Students Social Media Addiction' name='excel-direct.0md5ekx0lk359m12dceas078eoh4'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/601-7/Downloads/Students Social Media Addiction.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0md5ekx0lk359m12dceas078eoh4' name='Students Social Media Addiction' table='[&apos;Students Social Media Addiction$&apos;]' type='table'>
+          <columns gridOrigin='A1:M706:no:A1:M706:0' header='yes' outcome='6'>
+            <column datatype='integer' name='Student_ID' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Gender' ordinal='2' />
+            <column datatype='string' name='Academic_Level' ordinal='3' />
+            <column datatype='string' name='Country' ordinal='4' />
+            <column datatype='real' name='Avg_Daily_Usage_Hours' ordinal='5' />
+            <column datatype='string' name='Most_Used_Platform' ordinal='6' />
+            <column datatype='string' name='Affects_Academic_Performance' ordinal='7' />
+            <column datatype='real' name='Sleep_Hours_Per_Night' ordinal='8' />
+            <column datatype='integer' name='Mental_Health_Score' ordinal='9' />
+            <column datatype='string' name='Relationship_Status' ordinal='10' />
+            <column datatype='integer' name='Conflicts_Over_Social_Media' ordinal='11' />
+            <column datatype='integer' name='Addicted_Score' ordinal='12' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M706:no:A1:M706:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Student_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Student_ID]</local-name>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias>Student_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Academic_Level</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Academic_Level]</local-name>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias>Academic_Level</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Avg_Daily_Usage_Hours</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Avg_Daily_Usage_Hours]</local-name>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias>Avg_Daily_Usage_Hours</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Most_Used_Platform</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Most_Used_Platform]</local-name>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias>Most_Used_Platform</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Affects_Academic_Performance</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Affects_Academic_Performance]</local-name>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias>Affects_Academic_Performance</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep_Hours_Per_Night</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sleep_Hours_Per_Night]</local-name>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias>Sleep_Hours_Per_Night</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mental_Health_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Mental_Health_Score]</local-name>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias>Mental_Health_Score</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Relationship_Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Relationship_Status]</local-name>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias>Relationship_Status</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conflicts_Over_Social_Media</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Conflicts_Over_Social_Media]</local-name>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias>Conflicts_Over_Social_Media</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Addicted_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Addicted_Score]</local-name>
+            <parent-name>[Students Social Media Addiction]</parent-name>
+            <remote-alias>Addicted_Score</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Academic Level' datatype='string' name='[Academic_Level]' role='dimension' type='nominal' />
+      <column caption='Addicted Score' datatype='integer' name='[Addicted_Score]' role='measure' type='quantitative' />
+      <column caption='Affects Academic Performance' datatype='string' name='[Affects_Academic_Performance]' role='dimension' type='nominal' />
+      <column caption='Avg Daily Usage Hours' datatype='real' name='[Avg_Daily_Usage_Hours]' role='measure' type='quantitative' />
+      <column caption='Conflicts Over Social Media' datatype='integer' name='[Conflicts_Over_Social_Media]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Mental Health Score' datatype='integer' name='[Mental_Health_Score]' role='measure' type='quantitative' />
+      <column caption='Most Used Platform' datatype='string' name='[Most_Used_Platform]' role='dimension' type='nominal' />
+      <column caption='Relationship Status' datatype='string' name='[Relationship_Status]' role='dimension' type='nominal' />
+      <column caption='Sleep Hours Per Night' datatype='real' name='[Sleep_Hours_Per_Night]' role='measure' type='quantitative' />
+      <column caption='Student ID' datatype='integer' name='[Student_ID]' role='dimension' type='ordinal' />
+      <column caption='Students Social Media Addiction' datatype='table' name='[__tableau_internal_object_id__].[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/601-7/AppData/Local/Temp/TableauTemp/#TableauTemp_0nynfg41j2t7dh1f7ja1w0uh9p5r.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/02/2025 01:14:34 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Student_ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Student_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Student_ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Students Social Media Addiction</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>705</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Students Social Media Addiction</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Students Social Media Addiction</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Academic_Level</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Academic_Level]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Academic_Level</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Students Social Media Addiction</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Country</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Students Social Media Addiction</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>110</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Avg_Daily_Usage_Hours</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Avg_Daily_Usage_Hours]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Avg_Daily_Usage_Hours</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Students Social Media Addiction</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>67</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Most_Used_Platform</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Most_Used_Platform]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Most_Used_Platform</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Students Social Media Addiction</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Affects_Academic_Performance</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Affects_Academic_Performance]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Affects_Academic_Performance</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Students Social Media Addiction</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sleep_Hours_Per_Night</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sleep_Hours_Per_Night]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sleep_Hours_Per_Night</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Students Social Media Addiction</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>59</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Mental_Health_Score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Mental_Health_Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Mental_Health_Score</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Students Social Media Addiction</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Relationship_Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Relationship_Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Relationship_Status</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Students Social Media Addiction</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Conflicts_Over_Social_Media</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Conflicts_Over_Social_Media]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Conflicts_Over_Social_Media</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Students Social Media Addiction</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Addicted_Score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Addicted_Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Addicted_Score</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Students Social Media Addiction</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Students Social Media Addiction_97AE74A7F1714853A2044612CB530311]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Students Social Media Addiction' id='Students Social Media Addiction_97AE74A7F1714853A2044612CB530311'>
+            <properties context=''>
+              <relation connection='excel-direct.0md5ekx0lk359m12dceas078eoh4' name='Students Social Media Addiction' table='[&apos;Students Social Media Addiction$&apos;]' type='table'>
+                <columns gridOrigin='A1:M706:no:A1:M706:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='Student_ID' ordinal='0' />
+                  <column datatype='integer' name='Age' ordinal='1' />
+                  <column datatype='string' name='Gender' ordinal='2' />
+                  <column datatype='string' name='Academic_Level' ordinal='3' />
+                  <column datatype='string' name='Country' ordinal='4' />
+                  <column datatype='real' name='Avg_Daily_Usage_Hours' ordinal='5' />
+                  <column datatype='string' name='Most_Used_Platform' ordinal='6' />
+                  <column datatype='string' name='Affects_Academic_Performance' ordinal='7' />
+                  <column datatype='real' name='Sleep_Hours_Per_Night' ordinal='8' />
+                  <column datatype='integer' name='Mental_Health_Score' ordinal='9' />
+                  <column datatype='string' name='Relationship_Status' ordinal='10' />
+                  <column datatype='integer' name='Conflicts_Over_Social_Media' ordinal='11' />
+                  <column datatype='integer' name='Addicted_Score' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Students Social Media Addiction (Students Social Media Addiction)' name='federated.15o0nxe0e5jxog16cqw3g0a9yfjo' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.15o0nxe0e5jxog16cqw3g0a9yfjo'>
+            <column caption='Avg Daily Usage Hours' datatype='real' name='[Avg_Daily_Usage_Hours]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column caption='Student ID' datatype='integer' name='[Student_ID]' role='dimension' type='ordinal' />
+            <column-instance column='[Avg_Daily_Usage_Hours]' derivation='Avg' name='[avg:Avg_Daily_Usage_Hours:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Student_ID]' derivation='Count' name='[cnt:Student_ID:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Avg_Daily_Usage_Hours]' derivation='Sum' name='[sum:Avg_Daily_Usage_Hours:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[none:Country:nk]'>
+            <groupfilter expression='COUNT([Student_ID]) &gt; 1' function='filter' user:ui-filter-by-field='true' user:ui-marker='filter-by'>
+              <groupfilter function='level-members' level='[none:Country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[none:Country:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[sum:Avg_Daily_Usage_Hours:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[sum:Avg_Daily_Usage_Hours:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[avg:Avg_Daily_Usage_Hours:qk]' value='n#,##0.0;-#,##0.0' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[sum:Avg_Daily_Usage_Hours:qk]' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[none:Gender:nk]' />
+              <tooltip column='[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[cnt:Student_ID:qk]' />
+              <text column='[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[avg:Avg_Daily_Usage_Hours:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[sum:Avg_Daily_Usage_Hours:qk]</rows>
+        <cols>[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[none:Country:nk]</cols>
+      </table>
+      <simple-id uuid='{C1EE1D12-1E05-4B3F-8DD7-E4E9F8C1E27E}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98134' id='7' param='horz' type-v2='layout-flow' w='97538' x='1231' y='933'>
+            <zone h='98134' id='5' type-v2='layout-basic' w='72923' x='1231' y='933'>
+              <zone h='98134' id='3' name='Sheet 1' w='72923' x='1231' y='933'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98134' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='24615' x='74154' y='933'>
+              <zone h='2567' id='8' name='Sheet 1' pane-specification-id='0' param='[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[sum:Avg_Daily_Usage_Hours:qk]' type-v2='color' w='24615' x='74154' y='933'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='9' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='98134' id='3' is-fixed='true' name='Sheet 1' w='72923' x='1231' y='933'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='2567' id='8' name='Sheet 1' pane-specification-id='0' param='[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[sum:Avg_Daily_Usage_Hours:qk]' type-v2='color' w='24615' x='74154' y='933'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{115E7E6E-32D1-4A3D-A4D1-3002B7D94CA0}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='0' param='[federated.15o0nxe0e5jxog16cqw3g0a9yfjo].[none:Gender:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{899D61E4-7856-4C99-9AAE-1855650E0E69}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{12281B77-5060-4B7D-9605-E857682B0905}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAeY0lEQVR4nO2daWxk65nXf2evvVzl8u52u923b/dds05IJswkDMksGhE2BdCwfZsRREJ8
+      gy8ggURAAgQIJIZBQpoREtJEEEZkQCMCJDOjzOTq5ubmJrl907c3291eq1x71amzvXxwt9tL
+      nXPcdrlsd72/T90+Tz3nOVXv/z3v+ryKEEIgkYwo6nkHIJGcJ1IAkpFGCkBybvhej+WVRwR9
+      GuFCCHzfP/MYFNkHkJwX3/2D/8fU9Vdoba3R9jUmC3kMPeDh3Yfohs5mvUXOVChdvUHaULm2
+      tIQy4Bj0AfuTSI6NaejsVHbY2a7gCth59BArl8TSs/Q6XTJJAyOZRm2u86CXYWlp8DHIN4Dk
+      3BCBT6vdxTJ1fKFC4KLqJpq6W8/7roNmmKx8+D75+ZcZzyYGHsOeAIIgQFVll0AyWuyVePki
+      kIwissqXjDRSAJKRRgpAMtJIAUhGGikAyUgjBSAZaQ7MBP/uH93hrdtroca/8oXXublQOvOg
+      JJJhcUAAq1sN3r27EWr8y5+5ceYBSSTDRDaBJCONFIBkpJECkIw0UgCSkUYKQDLSSAFIRhop
+      AMlIIwUgGWmkACQjzd5M8O6OsOhdYUIIgiA465gkkqFx6A0w6KQTEsnFZu8NoCjxhV9RFLlx
+      XvJCIUuzZKSRApCMNFIAkpFGCkAy0kgBSEYaKQDJSCMFIBlppAAkI40UgGSkOdEBGZ4f8IO7
+      m6HXk5bOq4sTJw5KIhkWJxJAt+fyj3/z26HXF6fH+Dd/5xdPHJREMixkE0gy0kgBSEaaUAEo
+      gKoocoG05IUmtA/w2vUZ0gaUay3ubTSHGZNEMjRCBbC+XaNtu2QS8iRVyYtLaBOo0uiiqBpK
+      zDZJieQyE1q9X5stkbYEPdtju9EbZkwSydAIfQN0ei4KKlvV9jDjkUiGSugbYLNSZ7MyzFAk
+      kuEj5wEkI40UgGSk2WsCBUHwJDlWOH7g43kevu9H2gkh8DxvMBFKJGfIngBUVY3NDaSpGrqu
+      o2nRAlAUBV2X8weSi49sAklGGikAyUgjBSAZaaQAJCONFIBkpJECkIw0UgCSkUYKQDLSSAFI
+      RhopAMlIIwUgGWmkACQjjRSAZKSRApCMNFIAkpFGCkAy0kgBSEYaKQDJSCMFIBlppAAkI40U
+      gGSkkQKQjDQyL5BkpDmQF+gvZb7NLxX/W6jxZGIeXV+QeYEkLwwHSmlatTG1RqixiXvmAUkk
+      w0T2ASQjjRSAZKSRApCMNFIAkpFGCkAy0kgBSEYaKQDJSCMFIBlppAAkI40UgGSkOfMFO9/4
+      zh3+4L2V0Ot/9Ytv8Ob1qbMOQyLpy5kLYLPa5oOVcuj1Zqd31iFIJKHIJpBkpJECkIw0UgCS
+      kWaou1beeGmGbFLn3v1NNtvOMG8tkfRlqAL4YKXMawsFKn0Kv+v5fPU//2HoZ0v5JF/58586
+      y/AkI8hQBeA6Lu+vVCnkEmw37APXgkDwzp310M/OlbJnHZ5kBBmqAK5OF8kmVWzbPSKAfqiK
+      QhCzUV8iOQ2nFkAmk2QmZ6FqCvdWq0TlgrA9n7yis1PvRPosFrNkDZWxrMWH97boSA1IzohT
+      C0DXNBCgahqqAkQU1s1ync3wObE9ul2HmXSK5a0mjiz8kjPkQF6gIIjLCxTAobxAtXqLWh3y
+      2SRPP74/L5AQQaxPz/Pw9vnsdnv8eLVHqZje+5tA5hqSDJ4DeYFUVSEq44+mqui6fiAv0ORE
+      npKlsrLd3Gv+7M8LpCjRUw1Pffr7dDJRypE3NVIpk26tjReAgsw1JBk8p54Icx2Xu2s1MpnE
+      wGbV6k0blYAHG3W60S8QieRUnLpKrT7p0G5UWqcO5ilOz+HOWvhE2fd+ssZ79zZDr//sR65y
+      fa44sHgkLy5n3qb4YvJt3sx/PfT6dWMOWHgun+8/3Oa//+FPQq9fmylIAUiOxZkLYFKrUjDD
+      9wMk1N03iIJgXtsKtZvS5NIJyeC5ML1KQ/H4Z8XfCL2u5BeBvzG0eCSjwYURwFkQCMGv/87b
+      odezSYu//gtvDjEiyUXj0gtAUcA0dHzXwzs8jSHg9966F/rZybGUFMCIc+kFsDRdJJnU8F2P
+      26vV8w5Hcsm49AKodR2qTYdAKOcdiuQScul3hNWbHRTDJGVe+keRnAOX/g1wfa6EqQU4jgfV
+      7on9fOOP7vCN79wJvf7Xfv5N/uQbzzdfIbn4XHoBrG7XmchZbFaap/LT6jisR8xmd2x5PNSL
+      yKUXQKfbY7k73NxCX/vW+4iQlbMJS+dLn7051HgkJ+fSC+A8+C/f/CF+iADGMgkpgEuE7DlK
+      RhopgFOgKArZpIGqqfKLvKTIJtApKJbyTJoKStpg/cMtqnL75qXjUgrg84l3eTn/26HXr5uT
+      wOKZx1GtNGhrUChmafcp/JVGl3KtHfr5yUKaQjZ5hhFK4riUApjUqoyZy6HXE2p4oRskigJC
+      0cgndPrt9f/W9x/wW7/3Xujnf/XPfIJf/swNAP7mV7+O7fTf85xOmPynv/9nBxGy5BCXUgAX
+      hdxYllulJNu2T1qH2in27NuOj+3035GtqTIZwFkRKoAP1rqomoJl6VwdkzrpR7VS547vgeed
+      qvA/D//3nQd87Vvvh17/i597hS98Ymk4wbwAhJZs1xeYmoIXkypl1KlEtPHPglbXYa0cPuvd
+      6sidc89DaF6gN66kQAi2Ws9ey/3yAvXjQF6gGAEFT/ICEeMTwZ7PuHSJT33G2Qn2+Qyi00/s
+      xXkMnvk85rPvI51L8+pUFicIeLCyTcMVh3w+i3NmIs9kLsFWpc56bTfVZCCOH6ckIi/Q450e
+      j+s+hZzO5JO/9csL1I/9eYE8NXqZsvrEpxBadKQKez595Xg+4wqgwjOfqho9kv/U53F45vN4
+      ce7HdX16vk8QCNx9X3O/ODMJA8910Q0D2BWAqjzz+bjcCP0OFEVhfiJ3rOd5kQn9RVt2QNcT
+      zBpyiucwv5r9HwRB/0rASo8Bf+7Evp2uzXv3bYqFdOwb7O6jCgqCsUz/odS/9+vfpBnSJDIN
+      ja/9oy8D8N69Tf7POw9C7/PZ16/wqVfmAPiP33iHVre/TwX4u1/+dGTMF41QAdycTSJXtPTn
+      s4kfQogAFKt0Kt/5YpYZSycwNUSrQ88NF8HCdIFiLkFls8rOKe75uNzkW99/uPd/RVFAiL00
+      r/MTuT0BfOdHq+w0+i87V5RnAtiqtrm3Fr5Db34iy5XJ/CmiHgxyeOeC0ax3ubI4jm/3aBzZ
+      5HyQcr3DxFiC8jFSzR+XuVKWXCZJ4Dr85HHtxH7eu7/Jv/2vb4Ve/8s/9xq/8oU3APj679+m
+      GfJWmSqk+YVPvXTiOOKQArhgBL7HjyKy3u2n3bF5+/baQO/vCAVLV9iuD2+J+f966y6bO/1H
+      015dnJACkAyP7UqDSrVJMZM471CO8N69TVa3GqHXP/XKLBNjaXw/YH0nfHOTqWtMFnYzj4+M
+      AMaKOa6kNR5sNWj1YoZcLzBvmPf5tezvhF6/ZWaBWyf2f2tpmvG0wcZ6pe/yjvPk2+8+5Jvf
+      C++sz5ayTIylqbd7fOVf/c9QuxvzRf7F3/55YIQEEPg+99aajBUzdLebkWngz4OE4oDSf9tl
+      Yt9o6pxWppT4YagfSz9dsf3g/iY3FoqsnWJ/9WViZATQqO+2MTXbQ4ULJ4B/N/6vwQ05OsrK
+      AX9lSJEIPlypDOle58/IDPKnM2k+dn2Sj1wtEHfkwOxEnjdemmIybQ4lNsn5MfQ3gOsLdE1h
+      2Gms2q026wmNTFvE1v6OF5BNGtwdkXU1n0u8y8fH/3no9UzyK8CrwwtoiAxVAH98t0XdFrxx
+      LcVsOnzpg+8LvECw1faZHzMGJpaNcvgIwn7K1SY79RaFTIJuc3Bj7BcVHZ+UGj7sqStH1xYl
+      silKmkK+kOTRWpX6gAYWYs5Z3ENVFYJAHNs+1M8pPvvcfHIxxVROZyIVfdv1So+3H9s0mx6N
+      c2isL84V+djNGcxTfbUH0TSV8WyCmOVBZ4KiqCzNFliayaMN6P5uz2N2Oo8GA1sxbOay/NS1
+      cRYnM7GV3mtL0yxNZbgycboD1IcqAF1XuTZusNWMLtVzExZTSRUzpZGNWSN3FuzUu2gK7DQH
+      Nxl0a6HEwnSBm3NjA/N5XFL5NCl89GSCMXMwX6jvOLz1wRp3NpqIAR1mHjgOt1crrNd7mDFK
+      fbxZo2oLgrhVxEAqaaKH1DxDbQL9eK1Dz1fRNZjLhd86CKCUM1jfcfEZfk+90ery1vuDHQbc
+      qHYwhEfbGf6pf+1ak9sNhUSyh+cO5v6aafHxq3kSCZPv/vjxQHx6do8mkEnoEPj0/HBh7TS7
+      GIaBakULZX66SDFlkkzAD25vYB9yOdSyNZHSEUKwMB49utKxPd5Z7bLZCTiHF8CZ4LoejlAo
+      pI2h39tImORTFldLmYE1wXynx4Nyh3K1hTOgJpBqmnzuzXk+sVSKbVZ98rUFPvvaDEqMXbnW
+      ot3tcnt5h37rCof6BpgcM5k8Rgsgmzb42SWNhiNemHHa2fEMlq7Q7XnAcHeRabrOm0vjVFq7
+      TYtuRM36PJSrLcoDPJIhcBy+e2eL2byFHRPjOx884vpMnp1OdM7WXs9lddtnspim3T46qndh
+      J8J0XaV4YaN7fu6vV3FcH8sY/jvNbnX49g87IE43YjIMbNvhvh0//Bz4AR8+ildfPp/htdkc
+      fuDyuM86oktfxO5t2vgoWJZ2oTfvO0+2d/Xc85mDHlA/9UTMT44xljbodGzub54ui/fzUqs1
+      +Z7tkNFFX/Ff+hZGxwlQFOgOqHMnGTyKCNjcaeOd0yk+tt2j3Or/Vrm4VeYxeX0+iRBQbl+0
+      1T2Sp6xu7zY9xnMXLwvepRfARsOj0vCwUtre5v1hIYRACPAF6KpCzF79keXqTJFixqDdsqmE
+      bKc8Ly69AOptF90yMM6he1etOby37WKoCq8upijoUgH9cB2HB+tt0tbwh4DjCM0L1I+LmBfo
+      1mwq1OdZ5wVKJDTenDfAD0ioT32KE+YFirIVJ4sz2uWxfYpA7PMZ/Ux7Pv1nPteeHD1Vaz2b
+      WT9+nM/uPaWWuWWE54RNijbeMcrn/mcPzQvUD5kX6OALM5nQSAJbNUFaeepTOWFeoCjbZz6D
+      fXGuVnrYPhiGymLBOOoz2mVfn31NVWWfz+hn2nt27Tm+z8g4n937S+k/5pfGvh5qmrR+Bl2/
+      jqYdvyxd+ibQeVKtOjzuCbpdHyOrYw3g22y1XN7bcjFUeHk+ST6iWVXv+iQtjbo9vBGwCbWG
+      HpJ9O07wFxEpgFOQyej4tsvNKYvUgOa3VGW3RaAQP0b92lySQEClNbgRsA83bCotn2LR5OXi
+      0Tb7Pxz7TYSxFfJpBfhbz33Pf5D/LVz6Z7dI5D4K/Onn9nlcpABOgWlqfHR2sDO7qbTBZ5d0
+      6i0fPUYB2y2PWssHQx3YCNjsmM5202cqO7yiUdCaCK3e95qmhmd3CCOrdvhq4T+EXk/mXgFG
+      bFP8ZaHbdXl73aVrB3z+lXSkba3t0UXldCviD5JO6Pz0DZ2thgfG5SweGj4L+nbodVWb3vv3
+      5XzCF5hEQuflomDLFpgxHc6Xp3cnlsLW438x+Ta26N9e1w0T+PKRv7//uMt226eQ1ZmMWLL+
+      ovDiP+ElQ1EUpsZMpp7zM/34C6nfBzUkvaFu9f1zPq0zXzRpDrFjfZ5IAUgOMDe22/HNJV+U
+      nRjRSAFILiXiSfZqhdMtQZECkFxKfrDaJZ3QUDSVl8ZPvsRCCkByInodjx/XPExfMDtpUbRO
+      v7I+8AJubzsoAq5OWqQjJgEThkIgBFkz+r5CCPwAHF+Q6mP7QgtAIeDfj//L0Otabgb40pnd
+      f0Hf4vOJ74den9MXgBtndv+nCCHwAtDV3Uk2dQDLVjVdQQWEAuaAZoBdx6cTQDIIaLkiUgA3
+      pxN4vmCnG73c5eFWj4dVl0xC49WFFOlDGnihBQCQVcOX3yrqs6RXHzM/JJX5RqjtTWMauP5c
+      937TvMet7O+GXreMjwI//Vw+T0Kz7vDjRkBJV8mXDCbNAQjAUPnIjEWr4w9sHa6VMvhEUse2
+      fbyYPviDSo9yPSCT0ZmKyJ1TzOrMFE06vYB+CSROJICU6vBPCr8Rej2Ruw784klcnxuL+jqz
+      yXdDr1va5U0Ym87o3LQUtis9EgOqrXtNl2UXqg2PpZkEWeP0ft2uR8WH1YrDjemY8wkCwZVJ
+      Ey3mbZZLarsbpnoBuczR6ycSgErAVT1sPQio2vCTP8XxdLLI9gTJETv4T9M1ijqIrM6gtizo
+      CY1a3eHWhIk2wEVwP9rs8ea4GZsVYmnyeLvLKnWHdzZdNBRm+6TjOXUT6GnBcnywLvCGkO0d
+      h/WeoNf1ubGYphDxir2/ZdNxIZ3SuFYYzCaOD9a6aLqKh8Irk8PNOu3YHv/7vo2G4E/d6lMN
+      ngDd1PgTV8IL4c9Y7/Hx0j8NvZ5M/RrwxoG/GUmdL1zXn5SpwZSl0pjFp02Nhtd/ceGpBbC2
+      41B3BC074NWrKTIXtHIdy+lsVjxuTFlkY2KsdXzankKgAAMSgKEp+AKMc6gkzITOzy0lWW35
+      WENasqwqAkPZXaXqeAG2E+CrKoUnO4fUiCT1YTPbJyWX0gk7EfnUAiimdSqOx0sl88BJJhcN
+      XVO5VTK4u+WQzkQ/9seuphACtga4zHhp0kII2B6gz+chmdB4OXE+s7v3th06rkBToTB/sTbG
+      n1oAlqXy+pTJ46pL7gILYLPS40FHUNSg7UNUjtjtlsdO08MYxA6XJyzvuNRaHpqpMjUCi8z2
+      s1Aw6PhcyDSXp/4lHpd7VB1wnYB8wSR3QZtA0yWL5kYP1dIi2/8AlaaLr+qYA8wmpSLIZY2B
+      bZy5TCgKeG5AM4BixLkQ58GpBTA1ZtKueiwWDTIX+A2gKAovzxzv6M9XZlMDS/n9lIXx/qsv
+      R4H1qsOdbZebC0cTGJw3pxaAaajcGvKoxjAYdEdslLk+nWQyb2LFLFs4D0arMSo5N7IXdHn1
+      gbxAIr+IMv/pUOPAGsP3fYRQIu3Izz/LzZJfiLQVicITn0TaKdnpPZ8idyU6zsT4rq0Ion2m
+      x/f5nIuOM1Xas1XmPw1ByGhOIv/MZ2Ym2md68pnPuZ8CL+REGjP1zGd6Ksbn1D6fn4ReyJ5a
+      3dzncyLaZ2b22e85+3GUbsgmG0XZswuSpWifuWdlRJn+GGTn+xuWbjyLs7AU/bub2d2ypOjR
+      v3vx2rN7iyeNXd/34/OpPIed9Hm+PlVVPVYz7jx9BkGAoigDj/N5vs+9RtnhxFCe3eHdd9/l
+      wcrB42/6JZDqtBosLy/jHpq+Pmwb+C7r62uUd2qRdgDb68u88/bbNGw/0jbwPR6trrCxXTmQ
+      tKyfz53tDe7evYt9KJP0YduNRw/54IMPWH60EWnnez3W1rfY3nhM14mP8/33fsTmzk6k3W6c
+      63z/7e9SOZTR+LCtEIK11WXWN7cPZME7Eqdrs7KywsrKCl3nYHa7fvffXH/E2sZWrF2jWubu
+      3bu0utFxVrbWuH37Nvcerh74e7+C39jZ4vvvvM1W9eCbq1/5LFfKbFaqkXYA2+uPuHf/Qd/y
+      uWd9OBghBKXJSUzj4EzoYbtuo8Kde8t0bPdIGo/Dtl7Pxu65tFqtSDsAPZFhojQGh7K79a0t
+      RIAqfOrNTqRdq9XCMIwjO4gO205MzWCYJp7rRNoBVNfvc2d560jGtCO2yu7sqG3H+1T0BFNT
+      JdTjPDu7y77r9dYBu/22mpEgl05QLW/R6R0UwGGfO+VNyttlHP/ovffbBl6Ph8uP0HTjSEKs
+      wz7HJ6cxdZ3AP3rvI8+kGkxNTRxZtnDYLgh8Hm+UUYLo5wFotdvoxtHjdhVFCc+95AsBvkci
+      GT10qFtpbt26AV7vyJd2BAHJdAY9JuFNr9Pk0eoa3Z4Tm4ov8FzK5TouMJYLH2bzfZdsbgxF
+      UY+1ysR3eiRT0cN2iqKQL80yN5HFj3l2EQTkJ6bQRVxuTw9FBLiBTjIRPUZRrWzhCQVFNSiM
+      RSdHEYpOsZgDP/r+xdIUnufGnmSj6hZXF69i6YKuHX1MEYDwPcxE/Cywril0bRczJpGu7zr4
+      rrdbRmLIpBNUK1XcPqkyQ0vixuoy1WabnZ2QDs8Tup0mH/7kQ8ZLeVqd6Gl+PZkE1yabzUfa
+      WaksUxMFTMuKTcaqqCqJhIHjHD3MeT+aZuDYLbbWH9GKyXigAEJR0GPakkIIHMfBD1xsO/r+
+      qqaz/fghzZjCoqo6juuB36YRc0xroViivLlOeSf+qCDH7qBoBiK2vS1Ip1O0Wp0YOxBul516
+      vB0oCASGHv19Bp7D9k4N1/ViN+2YySS5TIrx8VLs3VXdJJ0y8b2jv3uoABauv8RYNkM2E52c
+      KZXOks/naHdcMunoGsuxu3Rsm1o9/sT2XrfF2uM1nJiTX+r1GtXKFr6IH2NOZvJMTIwTtxpa
+      KAqddotaIzpOTbdYeuklrr/0CqWx6ImuwHPQExlKxfil4qahoutJEqm4+RWFmZkZUjFvaQDT
+      NPD9gEatGrOBJUDTjGNNBHZtF0X06PWixQ8Cp9elXImuTFXdxCRAM+LnlVTDQrgdtmJO6RO+
+      y8ZmGSvR32doUXA6bWrNFkpc5mBFxUok0LWAbif6izDNBO16Fc2InxXN5IvkczmSyWhRZdIZ
+      rt16ncXZiVif9VoNy9Lp9akJ9iOCgImJSSxrcLO3qmZiaIJ6I/6MLLvbxQtcup3o13unVWej
+      vBOb2RrAcRw67RapTD6mCahgJdJMTYxHWgnfBd0glRqjMBbdVAwCQXF8gvQxhJrNZalVyvTc
+      6LLUbTXRrBRjuegKGlWnNDEBAow+Te/Qb041TCxdjd3upqgqqVSK8Yk58tnodpsIfIxkjsQx
+      dg/VqjUK4xOxJ4brpoXdrFOtRRcsEQSkkkm2yw067XrkczUaDbp2j4Q1uBnuIHDxAwURk4sf
+      IJ1O4XQddDNa/EEgGC8WScYULCECdE3DCzSymThRCxr1Go4XU6srKp1mA9OESjX62NdmvUar
+      2yOTjSmsQLtjk0qbdLvRzb9KeRvP9+kdow8g3C6KbuJ5z9EH6DkuY2MFUonoL0zVdLLZLKlk
+      IrZzKYTAd3p0evGdplw2xerqo/iO9a5nypXoLYud1g6tVodsPoNp5SJjzeWy1Cs12vZx2rfH
+      Q1U00tksV+ZmjmWv6DrEiCU7VmRhYYHJ8UKMN4Hv+3iugx/TCQYVTVOOHAZyJD5Vo1TMc+/u
+      MmYiuuLLF8YJ3F78wRVAaWqGawtXScZUPpOlErplYXejj1zyPRczmUERYPbZCx1axWTzhYEm
+      XQV4tPIAxUqQTcWPBtiOSz5t0LU90mb4l9Fu79Y+uVzYloddUpkCaUdhLJdGhKQFfIqqahQn
+      ipQKxdg4j0vPdVEJaHe6WGZ4gfE9m/WNMl4gSMSMAh0XEbjcf/CI8akJtNjmUoDreHhefGH1
+      FYNr1+ZRYkUVEHgBPTeu4vNZXV7G8x3SxblIy1qrjSYE2Xz0gIqmGyjCo9HqMN2n2hvqWqD5
+      xess379Ho21TyIfLy+40KU5eYaJUpBfTuX28uoJuJbFiTznRKJWi27X7bQPfxe72yKUHs4Lx
+      8coy9VaH+WS0UIPAwekF9LzuwBbkqVqCT3/2M8e01uj12iRiauvA69Fqd0AxSafjmlUKyVTi
+      WG+fhcVFAiFQY0bgCvk8P/rJXQJFpxgxBNzrttjarlCttfECgX6oST1UAaw8uIeHTjpujFlR
+      WH20iiI8pheiU5Es3biJGfGGOAmNeo1EKnOszuVxWVy6jucHsT+sYeZ4/SOvDuy+z48PgUrX
+      jm5aqLpF0lDZqdb4sOXw5qsvRTQrFZrNJmoqfgi2vLlBTyiUShMkI+YCFBSmZ2dQYopwIpUl
+      nTSxez6OG5A4NAQ4VAEsvXy8H9ZMZlha2u0wxdWCgy78sNtmzcc1q58TTTfQLsHa28ALmJyd
+      IZWPb/5ZiQTJVIa0lSZqG7sQgtmFRRwnrsOqkrR0KuUGxZjx/ZWVB3Q8nbkrVyLtnG6Lli24
+      sniNTJ8VqRdvgfYTjrtISjJY1tbWKJQmqe3E50HqtFr0PI+xsXxkQep1W2xtbaGbMX0/v0Or
+      p6AKj2bLjjSdu7JI0tLoOdH9imazQWC3uLv8qO8k+CWokyTDxDJ11h4/QjXix+yT6TRdvx07
+      a6tqFvlMKn4USLVw7HWuLFzFi+n7ra+tgaLFdurHJ2cZn5wNvb63HFoieV42Hy/zYHmZuesf
+      4cpU9GjM3Q9+SE9J8drN50svedZc2CaQ5GIjhEAzk8xMz5DPxg9rC5SBJOUdNFIAkhPSpbpV
+      oedDsx09a9tutcjnx8jmBj2zdHqkACQnRAdVIfAD0snomeBatcJOwwY/ftnCsJF9AMnZ8+Q4
+      I7h42Tb+P49J+Disc+IqAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
